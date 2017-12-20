@@ -1,0 +1,177 @@
+/*
+Brown : #4F4444;
+White : #ffffff;
+Grey 01 : #aaaaaa;
+Grey 02 : #888888;
+Turquoise : #9acbb5;
+Dark Green : #334444;
+red : #ff0303
+
+font-family: 'Abril Fatface', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+  background-color : #fff;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bitter', serif;
+  color : white;
+  text-align: center;
+}
+
+h1 {
+font-size: 3.25em;
+color: black;
+min-height: 20vh;
+padding-top: 0.6em;
+}
+
+a {
+  color : white;
+}
+
+
+header {
+  min-height: 80vh;
+  background-image: url('images/lisa.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.header-content-block {
+  background: rgba(170,170,170,0.4);
+  padding : 22px;
+  text-align: center;
+}
+
+.header-content-block h1 {
+  font-size: 4.25em;
+}
+
+#bio {
+  min-height: 45vh;
+  display: flex;
+  align-items: center;
+}
+
+#bio h1 {
+  display: none;
+}
+
+.bio-content-block {
+  max-width: 960px;
+  margin: 0 auto;
+  columns: 2;
+}
+
+#comp {
+  background-color: white;
+  color : #fff;
+}
+
+.comp-section-content {
+ display: flex;
+ justify-content: space-around;
+}
+
+.comp-content {
+  background-color: #334444;
+  width : auto;
+  margin : 20px;
+}
+
+.comp-content p {
+  padding: 1em;
+
+}
+
+.comp-content img {
+  width : 100%;
+}
+
+.comp-content a {
+  display: block;
+  padding : 1em;
+  float: right;
+}
+
+#portfolio {
+
+}
+
+.slide__link {
+	position: relative;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 1em 2em;
+	display: block;
+	color: var(--color-slink);
+	background: var(--color-slink-bg);
+	transition: 1;
+}
+.slide__link:hover {
+	color: var(--color-slink-hover);
+	background: var(--color-slink-hover-bg);
+}
+
+.slide__link {
+  font-size: 0.85em;
+}
+
+a:hover,
+a:focus {
+	color: var(--color-link-hover);
+	outline: none;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.portfolio-content-item {
+
+  max-width: 480px;
+  margin : 20px;
+  position : relative;
+}
+
+.portfolio-content-item h2 {
+  position: absolute;
+  top : 50%;
+  left : 50%;
+  border: 1px solid red;
+}
+
+.portfolio-content-item img {
+  width : 100%;
+}
+
+footer {
+  min-height: 20vh;
+  background-color: #5c0c03;
+  background-repeat: no-repeat;
+  background-position: top center;
+  columns: 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+.social-links a {
+  columns: 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
